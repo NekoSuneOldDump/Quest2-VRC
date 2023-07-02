@@ -16,11 +16,11 @@ namespace Quest2_VRC
 
                 JObject vars = new JObject( // Default settings
                 new JProperty("HMDBat", "HMDBat"),
-                new JProperty("ControllerBatL", "ControllerBatL"),
-                new JProperty("ControllerBatR", "ControllerBatR"),
+                new JProperty("ControllerBatL", "leftControllerBattery"),
+                new JProperty("ControllerBatR", "rightControllerBattery"),
                 new JProperty("Receive_addr", "/avatar/parameters/Eyes mode"),
                 new JProperty("Receive_addr_test", "/avatar/parameters/Eyes_mode"),
-                new JProperty("SendPort", "9000"),
+                new JProperty("SendPort", "4026"),
                 new JProperty("ReceivePort", "9001"),
                 new JProperty("HostIP", "127.0.0.1"));
 
